@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dinnerMenu.DinnerActivity">
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:title="Next Button"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:orderInCategory="100"
+        android:title="Setting"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="101"
+        android:title="Order" />
+</menu>
